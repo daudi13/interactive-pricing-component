@@ -16,7 +16,24 @@
 </head>
 <body>
   <div class="container">
-    <h1 class="card__main-title"></h1>
+    <h1 class="card__main-title">Simple, traffic-based pricing</h1>
+    <h3 class="card__main-subtitle">Sign-up for our 30-day trial. No credit card required.</h3>
+    <main class="card">
+      <div class="card__price-range">
+        <p class="card__price-range--pageviews"><span id="pageviews"></span>K pageviews</p>
+        <h2 class="card__price-range--rate"><span id="rate"></span>.00</h2><p>/month</p>
+      </div>
+      <div class="card__slider">
+        <input type="range" class="slider" id="TheRange" min="1" max="50">
+      </div>
+      <div class="card__billing">
+        <p class="card__billing--monthly">Monthly Billing</p>
+        <label for="" class="switch">
+          <input type="checkbox" name="" id="">
+          
+        </label>
+      </div>
+    </main>
   </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
