@@ -6,4 +6,38 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+html {
+  font-size: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  padding: 4rem 5rem 2.5rem 5rem;
+  margin: 0 auto;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  background-image: url("../images/bg-pattern.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fafbff;
+}
+
+.card__main-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #293356;
+}
+
+.card__main-subtitle {
+  text-align: center;
+  color: #858fad;
+}
 /*# sourceMappingURL=main.css.map */
