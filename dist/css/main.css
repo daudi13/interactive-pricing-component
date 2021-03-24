@@ -103,4 +103,16 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
+.card .card__billing p {
+  font-size: 11px;
+}
+
+.card .card__billing .discount {
+  margin-left: 5px;
+  padding: 4px;
+  background-color: #feece7;
+  color: #ff8c66;
+  border-radius: 6px;
+}
 /*# sourceMappingURL=main.css.map */
