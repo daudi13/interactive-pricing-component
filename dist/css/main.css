@@ -24,10 +24,9 @@ body {
   font-size: 15px;
   font-weight: 300;
   background-image: url("../images/bg-pattern.svg");
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #fafbff;
+  background-color: #cad0e8;
 }
 
 .card__main-title {
@@ -39,5 +38,28 @@ body {
 .card__main-subtitle {
   text-align: center;
   color: #858fad;
+  margin-bottom: 70px;
+}
+
+.card {
+  max-width: 40rem;
+  height: 30rem;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  color: #858fad;
+}
+
+.card .card__price-range {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
