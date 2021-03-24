@@ -21,4 +21,33 @@
             }
         }
     }
+
+    .card__slider {
+        margin-top: 3rem;
+        margin-bottom: 2.5rem;
+
+        .slider {
+            width: 95%;
+            margin: 0 auto;
+            -webkit-appearance: none;
+            border-radius: 5px;
+            height: 8px;
+            background: $lightgrayish;
+            outline: none;
+        }
+
+        .slider::-webkit-slider-runnabble-track {
+            height: 10px;
+            -webkit-appearance: none;
+            color: #13bba4;
+        }
+    }
+
+    .card__billing {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
 }
