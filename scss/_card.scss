@@ -1,6 +1,6 @@
 .card {
     max-width: 40rem;
-    height: 30rem;
+    height: auto;
     margin: 0 auto;
     background: $white;
     border-radius: 10px;
@@ -47,6 +47,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+        margin-bottom: 3rem;
 
 
         p {
@@ -59,6 +60,21 @@
             background-color: $light-grayish-red;
             color: $light-red;
             border-radius: 6px;
+        }
+    }
+
+    .card__footer {
+        margin-top: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul li {
+            list-style-image: url('/images/icon-check.svg');
+        }
+
+        li + li {
+            margin-top: 10px;
         }
     }
 
