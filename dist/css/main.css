@@ -62,4 +62,13 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.card .card__price-range .card__price-range--rate {
+  color: #000;
+}
+
+.card .card__price-range .card__price-range--rate .per {
+  font-size: 15px;
+  color: #858fad;
+}
 /*# sourceMappingURL=main.css.map */
