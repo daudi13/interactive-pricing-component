@@ -22,24 +22,8 @@
         }
     }
 
-    .card__billing {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-bottom: 3rem;
-
-
-        p {
-            font-size: 11px;
-        }
-
-        .discount {
-            margin-left: 5px;
-            padding: 4px;
-            background-color: $light-grayish-red;
-            color: $light-red;
-            border-radius: 6px;
-        }
+    .card__price-range--rate {
+        font-size: 35px;
     }
 
     hr {
