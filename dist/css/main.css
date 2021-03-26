@@ -61,6 +61,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 40px;
 }
 
 .card .card__price-range .card__price-range--rate {
@@ -74,6 +75,11 @@ body {
 
 .card .card__price-range--rate {
   font-size: 35px;
+  height: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: inherit;
 }
 
 .card hr {
