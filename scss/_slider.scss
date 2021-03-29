@@ -1,0 +1,33 @@
+.slider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+
+    &__range {
+        appearance: none;
+        width: 100%;
+        height: 6px;
+        border-radius: 4px;
+        background: linear-gradient(135deg, $soft-cyan 0%, $soft-cyan 50%, $very-pale-blue 50%, $very-pale-blue 50%);
+        outline: none;
+        width: 100%;
+    }
+
+    &__range::-webkit-slider-thumb {
+        appearance: none;
+        background: url('/images/icon-slider.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        transition: background-color 0,3s ease;
+        box-shadow: 0 16px 32px 10px hsl(174, 67%, 86%);
+        height: 40px;
+        width: 40px;
+        background-color: $strong-cyan;
+        border-radius: 50%;
+
+    }
+
+}
+
