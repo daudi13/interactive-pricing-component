@@ -27,15 +27,25 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #eaeefb;
+  padding: 0;
 }
 
 .top {
   background-color: #cad0e8;
   background: url("/images/bg-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   height: 449px;
   position: relative;
   padding: 5.25rem 0;
   text-align: center;
+}
+
+.card-title {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
 }
 
 .card__main-title {
