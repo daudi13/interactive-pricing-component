@@ -6,6 +6,10 @@
     border-radius: 10px;
     padding: 2rem;
     color: $grayish-blue;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
 
     .card__price-range {
         display: flex;

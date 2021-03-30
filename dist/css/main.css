@@ -69,6 +69,10 @@ body {
   border-radius: 10px;
   padding: 2rem;
   color: #858fad;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
 }
 
 .card .card__price-range {
