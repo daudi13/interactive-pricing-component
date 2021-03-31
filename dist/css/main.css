@@ -23,9 +23,6 @@ body {
   font-family: 'Manrope', sans-serif;
   font-size: 15px;
   font-weight: 300;
-  background-image: url("../images/bg-pattern.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
   background-color: #eaeefb;
   padding: 0;
 }
@@ -73,6 +70,14 @@ body {
   top: 30%;
   left: 0;
   right: 0;
+}
+
+@media (max-width: 25.625rem) {
+  .card {
+    margin: 0 10px;
+    padding: 0.75rem;
+    top: 40%;
+  }
 }
 
 .card .card__price-range {

@@ -11,6 +11,12 @@
     left: 0;
     right: 0;
 
+    @include breakpoint-down (mobile){
+        margin: 0 10px;
+        padding: 0.75rem;
+        top: 40%
+    }
+
     .card__price-range {
         display: flex;
         align-items: center;
