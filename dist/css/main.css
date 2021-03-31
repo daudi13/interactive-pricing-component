@@ -92,6 +92,14 @@ body {
   height: 40px;
 }
 
+@media (max-width: 25.625rem) {
+  .card .card__price-range {
+    text-align: center;
+    display: block;
+    height: none;
+  }
+}
+
 .card .card__price-range .card__price-range--rate {
   color: #000;
 }
@@ -118,6 +126,19 @@ body {
 
 .card .card-mobile__price-range--rate {
   display: none;
+}
+
+@media (max-width: 25.625rem) {
+  .card .card-mobile__price-range--rate {
+    display: block;
+    color: #000;
+    text-align: center;
+    height: 40px;
+  }
+  .card .card-mobile__price-range--rate .per {
+    font-size: 15px;
+    color: #858fad;
+  }
 }
 
 .card hr {
