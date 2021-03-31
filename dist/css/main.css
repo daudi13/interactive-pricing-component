@@ -67,16 +67,15 @@ body {
   padding: 2rem;
   color: #858fad;
   position: absolute;
-  top: 30%;
+  top: 15rem;
   left: 0;
   right: 0;
 }
 
 @media (max-width: 25.625rem) {
   .card {
-    margin: 0 10px;
     padding: 0.75rem;
-    top: 40%;
+    margin: 20px;
   }
 }
 
@@ -97,6 +96,12 @@ body {
   color: #000;
 }
 
+@media (max-width: 25.625rem) {
+  .card .card__price-range .card__price-range--rate {
+    display: none;
+  }
+}
+
 .card .card__price-range .card__price-range--rate .per {
   font-size: 15px;
   color: #858fad;
@@ -109,6 +114,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   display: inherit;
+}
+
+.card .card-mobile__price-range--rate {
+  display: none;
 }
 
 .card hr {
