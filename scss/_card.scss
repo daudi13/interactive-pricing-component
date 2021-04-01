@@ -79,6 +79,10 @@
         justify-content: space-between;
         padding: 0 1rem;
 
+        @include breakpoint-down(mobile) {
+            flex-direction: column;
+        }
+
         ul li {
             list-style-image: url('/images/icon-check.svg');
         }
@@ -96,6 +100,10 @@
             font-weight: 600;
             border: 0;
             border-radius: 20px;
+
+            @include breakpoint-down(mobile) {
+                margin-top: 30px;
+            }
         }
     }
 

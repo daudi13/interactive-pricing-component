@@ -183,6 +183,15 @@ body {
   padding: 0 1rem;
 }
 
+@media (max-width: 25.625rem) {
+  .card .card__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .card .card__footer ul li {
   list-style-image: url("/images/icon-check.svg");
 }
@@ -200,6 +209,12 @@ body {
   font-weight: 600;
   border: 0;
   border-radius: 20px;
+}
+
+@media (max-width: 25.625rem) {
+  .card .card__footer button {
+    margin-top: 30px;
+  }
 }
 
 .card__billing {
@@ -223,6 +238,12 @@ body {
 .card__billing p {
   font-size: 14px;
   text-transform: capitalize;
+}
+
+@media (max-width: 25.625rem) {
+  .card__billing p {
+    font-size: 12.5px;
+  }
 }
 
 .card__billing .discount {
