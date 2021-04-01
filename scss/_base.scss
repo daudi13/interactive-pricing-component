@@ -51,6 +51,10 @@ body {
     text-align: center;
     font-size: 2rem;
     color: $dark-desaturated-blue;
+
+    @include breakpoint-down(mobile){
+        font-size: 1.4rem;
+    }
 }
 
 .card__main-subtitle {
@@ -58,5 +62,9 @@ body {
     color: $grayish-blue;
     margin-bottom: 70px;
     font-weight: 300;
+    
+    @include breakpoint-down(mobile){
+        font-size: 0.75rem!important;
+    }
 }
 

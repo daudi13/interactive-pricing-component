@@ -51,11 +51,23 @@ body {
   color: #293356;
 }
 
+@media (max-width: 25.625rem) {
+  .card__main-title {
+    font-size: 1.4rem;
+  }
+}
+
 .card__main-subtitle {
   text-align: center;
   color: #858fad;
   margin-bottom: 70px;
   font-weight: 300;
+}
+
+@media (max-width: 25.625rem) {
+  .card__main-subtitle {
+    font-size: 0.75rem !important;
+  }
 }
 
 .card {
