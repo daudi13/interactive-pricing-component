@@ -5,6 +5,10 @@
         // margin-bottom: 3rem;
         margin: 0 4rem 3rem;
 
+        @include breakpoint-down(mobile) {
+            margin: 2rem 0;
+        }
+
 
         p {
             font-size: 14px;
@@ -18,6 +22,12 @@
             color: $light-red;
             border-radius: 6px;
             text-transform: lowercase!important;
+
+            .mobile{
+                @include breakpoint-down(mobile) {
+                    display: none;
+                }
+            }
         }
     }
 
