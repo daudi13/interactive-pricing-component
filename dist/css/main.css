@@ -93,10 +93,8 @@ body {
 }
 
 @media (max-width: 25.625rem) {
-  .card .card__price-range {
-    text-align: center;
-    display: block;
-    height: none;
+  .card .card__price-range .card__price-range--pageviews {
+    margin: 0 auto;
   }
 }
 
