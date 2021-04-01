@@ -51,6 +51,12 @@ body {
   right: 0;
 }
 
+@media (max-width: 25.625rem) {
+  .card-title {
+    top: 8rem;
+  }
+}
+
 .card__main-title {
   text-align: center;
   font-size: 2rem;
