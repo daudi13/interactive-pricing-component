@@ -38,6 +38,12 @@ body {
   text-align: center;
 }
 
+@media (max-width: 25.625rem) {
+  .top {
+    height: 300px;
+  }
+}
+
 .card-title {
   position: absolute;
   top: 30%;
@@ -67,6 +73,7 @@ body {
 @media (max-width: 25.625rem) {
   .card__main-subtitle {
     font-size: 0.75rem !important;
+    margin-bottom: 0;
   }
 }
 
