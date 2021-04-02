@@ -27,5 +27,21 @@
         border-radius: 50%;
     }
 
+
+    .two {
+        display: none;
+
+        @include breakpoint-down (mobile) {
+            display: block;
+        }
+    }
+
+    .one {
+        @include breakpoint-down (mobile) {
+            display: none;
+        }
+    }
+    
+
 }
 

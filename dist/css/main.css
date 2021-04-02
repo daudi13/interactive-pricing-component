@@ -355,4 +355,20 @@ input:checked + .slider__tool:before {
   background-color: #10d5c2;
   border-radius: 50%;
 }
+
+.slider .two {
+  display: none;
+}
+
+@media (max-width: 25.625rem) {
+  .slider .two {
+    display: block;
+  }
+}
+
+@media (max-width: 25.625rem) {
+  .slider .one {
+    display: none;
+  }
+}
 /*# sourceMappingURL=main.css.map */
