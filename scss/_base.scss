@@ -59,7 +59,7 @@ body {
     font-size: 2rem;
     color: $dark-desaturated-blue;
 
-    @include breajpoint-down(tablet){
+    @include breakpoint-down(tablet){
         font-size: 1.75rem;
     }
 

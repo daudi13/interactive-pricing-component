@@ -63,6 +63,12 @@ body {
   color: #293356;
 }
 
+@media (max-width: 47.9375rem) {
+  .card__main-title {
+    font-size: 1.75rem;
+  }
+}
+
 @media (max-width: 25.625rem) {
   .card__main-title {
     font-size: 1.4rem;
@@ -74,6 +80,13 @@ body {
   color: #858fad;
   margin-bottom: 70px;
   font-weight: 300;
+}
+
+@media (max-width: 47.9375rem) {
+  .card__main-subtitle {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 25.625rem) {
@@ -196,7 +209,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    text-align: center;
   }
 }
 
@@ -243,7 +255,7 @@ body {
   margin: 0 4rem 3rem;
 }
 
-@media (max-width: 25.625rem) {
+@media (max-width: 47.9375rem) {
   .card__billing {
     margin: 2rem 0;
   }
@@ -254,7 +266,7 @@ body {
   text-transform: capitalize;
 }
 
-@media (max-width: 25.625rem) {
+@media (max-width: 47.9375rem) {
   .card__billing p {
     font-size: 12.5px;
   }
@@ -269,7 +281,7 @@ body {
   text-transform: lowercase !important;
 }
 
-@media (max-width: 25.625rem) {
+@media (max-width: 47.9375rem) {
   .card__billing .discount .mobile {
     display: none;
   }
