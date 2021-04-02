@@ -81,6 +81,7 @@
 
         @include breakpoint-down(mobile) {
             flex-direction: column;
+            text-align: center;
         }
 
         ul li {

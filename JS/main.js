@@ -1,5 +1,6 @@
 const slider = document.getElementById("TheRange");
 const output = document.getElementById("rate");
+const slider = document.getElementById()
 output.innerHTML = slider.value;
 
 slider.oninput = function () {

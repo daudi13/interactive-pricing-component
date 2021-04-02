@@ -28,19 +28,19 @@
     }
 
 
-    .two {
-        display: none;
+    // .two {
+    //     display: none;
 
-        @include breakpoint-down (mobile) {
-            display: block;
-        }
-    }
+    //     @include breakpoint-down (mobile) {
+    //         display: block;
+    //     }
+    // }
 
-    .one {
-        @include breakpoint-down (mobile) {
-            display: none;
-        }
-    }
+    // .one {
+    //     @include breakpoint-down (mobile) {
+    //         display: none;
+    //     }
+    // }
     
 
 }
