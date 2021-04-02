@@ -11,6 +11,12 @@
     left: 0;
     right: 0;
 
+
+    @include breakpoint-down(tablet) {
+        padding: 1rem;
+        margin: 30px;
+    }
+
     @include breakpoint-down(mobile) {
         padding: 0.75rem;
         margin: 20px;
@@ -23,7 +29,7 @@
         height: 40px;
 
         .card__price-range--pageviews {
-            @include breakpoint-down (mobile){
+            @include breakpoint-down (tablet){
                 margin: 0 auto;
             }
         }
@@ -31,7 +37,7 @@
         .card__price-range--rate {
             color: #000;
 
-            @include breakpoint-down(mobile){
+            @include breakpoint-down(tablet){
             display: none;
         }
 
@@ -53,7 +59,7 @@
     .card-mobile__price-range--rate{
         display: none;
 
-        @include breakpoint-down(mobile){
+        @include breakpoint-down(tablet){
             display: block;
             color: #000;
             text-align: center;
@@ -79,7 +85,7 @@
         justify-content: space-between;
         padding: 0 1rem;
 
-        @include breakpoint-down(mobile) {
+        @include breakpoint-down(tablet) {
             flex-direction: column;
             text-align: center;
         }
@@ -102,8 +108,12 @@
             border: 0;
             border-radius: 20px;
 
-            @include breakpoint-down(mobile) {
-                margin-top: 30px;
+            @include breakpoint-down(tablet) {
+                margin-top: 39px
+            }
+
+            @include breakpoint-down(mobile){
+                margin-top: 30px
             }
         }
     }

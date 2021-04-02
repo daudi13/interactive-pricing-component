@@ -59,6 +59,10 @@ body {
     font-size: 2rem;
     color: $dark-desaturated-blue;
 
+    @include breajpoint-down(tablet){
+        font-size: 1.75rem;
+    }
+
     @include breakpoint-down(mobile){
         font-size: 1.4rem;
     }
@@ -69,10 +73,16 @@ body {
     color: $grayish-blue;
     margin-bottom: 70px;
     font-weight: 300;
+
+    @include breakpoint-down(tablet){
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
     
     @include breakpoint-down(mobile){
         font-size: 0.75rem!important;
         margin-bottom: 0;
     }
+
 }
 
